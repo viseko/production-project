@@ -4,14 +4,13 @@ import path from "path";
 import { env } from "process";
 
 const paths: BuildPaths = {
-  entry: path.resolve(__dirname, "src", "index.ts"),
+  entry: path.resolve(__dirname, "src", "index.tsx"),
   build: path.resolve(__dirname, "build"),
   html: path.resolve(__dirname, "public", "index.html")
 };
 
 export default (env: BuildEnv) => {
   const mode = env.mode || "development";
-  console.log(mode);
   const isDev = (mode === "development");
   const port = env.port || 3000;
 
