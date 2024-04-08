@@ -1,0 +1,20 @@
+{
+  "name": "production-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viseko/production-project.git"
+  },
+  "keywords": [],
+  "author": "Viseko23 <viseko23@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viseko/production-project/issues"
+  },
+  "homepage": "https://github.com/viseko/production-project#readme"
+}
