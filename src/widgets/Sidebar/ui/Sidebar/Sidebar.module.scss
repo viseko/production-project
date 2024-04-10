@@ -1,0 +1,19 @@
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - var(--navbar-height));
+  width: var(--sidebar-width);
+  padding: 16px;
+  background-color: var(--inverted-bg-color);
+  transition: width 0.5s;
+}
+
+.collapsed {
+  width: var(--sidebar-width-collapsed);
+}
+
+.switchers {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
